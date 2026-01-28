@@ -248,3 +248,10 @@ input, textarea{
   font-size:14px;
   line-height:1.5;
 }
+.fixed-image {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;         
+    z-index: 1000;        
+}
