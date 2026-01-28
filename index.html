@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ma Bibliothèque</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="box">
+        <h1 class="logo">Ma Bibliothèque</h1>
+
+        <nav class="menu">
+          <a href="#home">Accueil</a>
+          <a href="#cat">Catégories</a>
+          <a href="#books">Livres</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="section home">
+        <div class="box">
+          <h2 class="title">Bienvenue</h2>
+
+          <form class="search" action="search.html" method="get">
+            <input type="text" placeholder="Rechercher un livre..." />
+            <button class="btn" type="submit">Rechercher</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="cat" class="section">
+        <div class="box">
+          <h2 class="title">Catégories</h2>
+          <div class="cats">
+            <a href="#romans" class="cat">Romans</a>
+            <a href="#science" class="cat">Science</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="books" class="section light">
+        <div class="box">
+          <h2 class="title">Livres</h2>
+
+          <div class="cards">
+            <div class="card">
+              <img
+                src="https://www.fabula.org/actualites/documents/85259.jpg"
+                alt="1984"
+                class="img"
+              />
+              <h3 class="name">1984</h3>
+              <p class="info">Auteur : George Orwell</p>
+              <p class="info">Catégorie : Romans</p>
+              <p class="desc">
+                Une dystopie sur la surveillance et la perte de liberté.
+              </p>
+            </div>
+
+            <div class="card">
+              <img
+                src="https://images.epagine.fr/725/9782218740725_1_75.jpg"
+                alt="L'Étranger"
+                class="img"
+              />
+              <h3 class="name">L'Étranger</h3>
+              <p class="info">Auteur : Albert Camus</p>
+              <p class="info">Catégorie : Romans</p>
+              <p class="desc">
+                Un roman sur l’absurde et la manière de voir la vie.
+              </p>
+            </div>
+
+            <div class="card">
+              <img
+                src="https://img1.od-cdn.com/ImageType-400/0111-1/B0B/FCF/71/%7BB0BFCF71-CE6D-4CA8-BC31-8EFC004F2772%7DImg400.jpg"
+                alt="Cosmos"
+                class="img"
+              />
+              <h3 class="name">Cosmos</h3>
+              <p class="info">Auteur : Carl Sagan</p>
+              <p class="info">Catégorie : Science</p>
+              <p class="desc">
+                Découverte simple de l’univers, des étoiles et de la science.
+              </p>
+            </div>
+
+            <div class="card">
+              <img
+                src="https://media.senscritique.com/media/000008137934/0/une_breve_histoire_du_temps.jpg"
+                alt="Une brève histoire du temps"
+                class="img"
+              />
+              <h3 class="name">Une brève histoire du temps</h3>
+              <p class="info">Auteur : Stephen Hawking</p>
+              <p class="info">Catégorie : Science</p>
+              <p class="desc">
+                Explication des trous noirs, du Big Bang et des grandes
+                théories.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="romans" class="section">
+        <div class="box">
+          <h2 class="title">Romans</h2>
+
+          <div class="list">
+            <div class="book">
+              <img
+                src="https://www.fabula.org/actualites/documents/85259.jpg"
+                alt="1984"
+                class="book-img"
+              />
+              <div class="book-text">
+                <h3 class="book-title">1984</h3>
+                <p class="book-author">George Orwell</p>
+                <p class="book-desc">
+                  Une société contrôlée où la liberté et la vérité
+                  disparaissent.
+                </p>
+              </div>
+            </div>
+
+            <div class="book">
+              <img
+                src="https://images.epagine.fr/725/9782218740725_1_75.jpg"
+                alt="L'Étranger"
+                class="book-img"
+              />
+              <div class="book-text">
+                <h3 class="book-title">L'Étranger</h3>
+                <p class="book-author">Albert Camus</p>
+                <p class="book-desc">
+                  Le parcours de Meursault, un personnage distant face au monde.
+                </p>
+              </div>
+            </div>
+
+            <div class="book">
+              <img
+                src="https://images.epagine.fr/063/9782075128063_1_75.jpg"
+                alt="Les Misérables"
+                class="book-img"
+              />
+              <div class="book-text">
+                <h3 class="book-title">Les Misérables</h3>
+                <p class="book-author">Victor Hugo</p>
+                <p class="book-desc">
+                  Un grand roman social sur la pauvreté, la justice et l’espoir.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="science" class="section light">
+        <div class="box">
+          <h2 class="title">Science</h2>
+
+          <div class="list">
+            <div class="book">
+              <img
+                src="https://img1.od-cdn.com/ImageType-400/0111-1/B0B/FCF/71/%7BB0BFCF71-CE6D-4CA8-BC31-8EFC004F2772%7DImg400.jpg"
+                alt="Cosmos"
+                class="book-img"
+              />
+              <div class="book-text">
+                <h3 class="book-title">Cosmos</h3>
+                <p class="book-author">Carl Sagan</p>
+                <p class="book-desc">
+                  Un voyage scientifique pour comprendre l’univers et la vie.
+                </p>
+              </div>
+            </div>
+
+            <div class="book">
+              <img
+                src="https://media.senscritique.com/media/000008137934/0/une_breve_histoire_du_temps.jpg"
+                alt="Une brève histoire du temps"
+                class="book-img"
+              />
+              <div class="book-text">
+                <h3 class="book-title">Une brève histoire du temps</h3>
+                <p class="book-author">Stephen Hawking</p>
+                <p class="book-desc">
+                  Une introduction claire aux grandes idées de la physique
+                  moderne.
+                </p>
+              </div>
+            </div>
+
+            <div class="book">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEzFhLTBq_MpmQGS07r-YC0D4Twi6lboEZ_Q&s"
+                alt="Le gène égoïste"
+                class="book-img"
+              />
+              <div class="book-text">
+                <h3 class="book-title">Le gène égoïste</h3>
+                <p class="book-author">Richard Dawkins</p>
+                <p class="book-desc">
+                  Comprendre l’évolution en mettant les gènes au centre de
+                  l’analyse.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="box">
+          <h2 class="title">Contact</h2>
+
+          <form class="form">
+            <label
+              >Nom
+              <input type="text" required />
+            </label>
+
+            <label
+              >Email
+              <input type="email" required />
+            </label>
+
+            <label
+              >Message
+              <textarea rows="5" required></textarea>
+            </label>
+
+            <button class="btn" type="submit">Envoyer</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="box">
+        <p>© 2026 - Ma Bibliothèque</p>
+      </div>
+    </footer>
+  </body>
+</html>
